@@ -35,6 +35,7 @@ export class App {
     app: express.Application
     nodesPool: NodesPool
     chatflowPool: ChatflowPool
+    
     AppDataSource = getDataSource()
 
     constructor() {
